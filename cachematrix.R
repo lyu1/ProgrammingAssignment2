@@ -2,10 +2,10 @@
 ## functions do
 
 ## function, makeCacheMatrix creates a special "Matrix", which is really a list containing a function to
-## 1 set the value of the vector
-## 2 get the value of the vector
-## 3 set the value of the mean
-## 4 get the value of the mean
+## 1 set the value of the Matrix
+## 2 get the value of the Matrix
+## 3 set inverse of the Matrix
+## 4 get inverse of the Matrix
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
